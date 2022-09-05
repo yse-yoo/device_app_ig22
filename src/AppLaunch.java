@@ -23,7 +23,7 @@ public class AppLaunch {
 		
 		phone.call("0355556666");
 		camera.shoot();
-		editor.save("data/hello.txt", "hello!!!!");
+		editor.save("data/hello.txt", "こんにちは");
 	}
 
 }
