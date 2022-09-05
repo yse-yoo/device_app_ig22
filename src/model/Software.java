@@ -1,6 +1,6 @@
 package model;
 
-public class Software {
+public class Software implements ISoftware {
 	
 	public Software(String name) {
 		this.name = name;
@@ -16,6 +16,12 @@ public class Software {
 	// setter
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	// @ の書き方はアノテーション
+	@Override
+	public void launch() {
+		System.out.println(this.name + " is launched.");
 	}
 
 

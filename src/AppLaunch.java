@@ -15,6 +15,8 @@ public class AppLaunch {
 		android.install(camera);
 		android.install(phone);
 		android.install(editor);
+		
+		
 	}
 
 }
