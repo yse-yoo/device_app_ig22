@@ -5,4 +5,8 @@ public class Camera extends Software {
 		super(appName);
 	}
 	public static String appName = "Camera App";
+	
+	public void shoot() {
+		System.out.println("save a picture");
+	}
 }

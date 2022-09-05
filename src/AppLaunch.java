@@ -20,6 +20,10 @@ public class AppLaunch {
 		for (Software software : android.softwares) {
 			software.launch();
 		}
+		
+		phone.call("0355556666");
+		camera.shoot();
+		editor.save("data/hello.txt", "hello!!!!");
 	}
 
 }
