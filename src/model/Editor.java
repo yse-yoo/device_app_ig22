@@ -1,5 +1,8 @@
 package model;
 
 public class Editor extends Software {
+	public Editor() {
+		super(appName);
+	}
 	public static String appName = "Editor App";
 }
